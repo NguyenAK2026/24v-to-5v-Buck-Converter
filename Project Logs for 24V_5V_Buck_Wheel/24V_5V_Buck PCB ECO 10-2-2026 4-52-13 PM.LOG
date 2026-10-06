@@ -1,0 +1,12 @@
+Added Component: Designator=L1(INDPM7166X300N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SRP7028AA-100M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/srp7028aa-100m/bourns.html?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/docs/Product-Datasheets/SRP7028AA.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SRP7028AA-100M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-SRP7028AA-100M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/SRP7028AA-100M?qs=CiayqK2gdcLCkUvULW7S2A%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC5_2 Pin=L1-1
+Added Pin To Net: NetName=NetC6_1 Pin=L1-2
+Added Member To Class: ClassName=24V_5V_Buck Member=Component L1 SRP7028AA-100M

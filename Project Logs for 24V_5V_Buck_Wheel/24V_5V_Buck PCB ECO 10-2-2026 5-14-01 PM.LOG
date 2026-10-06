@@ -1,0 +1,9 @@
+Added Component: Designator=J2(CONN2_2710002_WRE)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2026 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "691102710002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Wire to Board"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC6_1 Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Member To Class: ClassName=24V_5V_Buck Member=Component J2 Terminal Block
