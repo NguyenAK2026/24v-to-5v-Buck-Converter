@@ -40,27 +40,3 @@ A PDF print of the schematic and PCB is in `24V_5V_Buck_Wheel.pdf`.
 | R2 | 24.9 k | Feedback divider, bottom |
 | R3 | 100 k | PG pull-up |
 | J1, J2 | Terminal block | Input and output |
-
-## Board
-
-- Designed in Altium Designer, with a ground pour on the PCB.
-- The silkscreen reads "Test : Buck Converter v1", so this is a first-revision prototype.
-- The last design rule check (`Project Outputs for 24V_5V_Buck_Wheel/`) reported 0 violations: clearance, shorts, unrouted nets and width rules all passed.
-
-## Files
-
-| File | Purpose |
-|---|---|
-| `24V_5V_Buck.SchDoc` | Schematic |
-| `24V_5V_Buck.PcbDoc` | PCB layout |
-| `24V_5V_Buck_Wheel.PrjPcb` | Altium project |
-| `24V_5V_Buck_Wheel.BomDoc` | Bill of materials document |
-| `24V_5V_Buck_Wheel.OutJob` | Output job configuration |
-| `24V_5V_Buck_Wheel.pdf` | PDF print of the schematic and PCB |
-| `History/`, `Project Logs for 24V_5V_Buck_Wheel/`, `__Previews/` | Altium auto-generated files |
-
-## Things to check before building
-
-- The input capacitors (C1 to C3) see the full 24 V supply. Use parts rated 50 V or higher, because ceramic capacitance drops a lot under DC bias. The schematic doesn't list voltage ratings.
-- Check the PTC fuse's hold current in its datasheet against your load. At 5 V and 2 A the input draw is roughly 0.45 A, plus losses.
-- Nothing in the project files shows this board has been tested. Check the output with a meter before connecting your electronics.
