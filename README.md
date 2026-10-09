@@ -41,4 +41,4 @@ A PDF print of the schematic and PCB is in `24V_5V_Buck_Wheel.pdf`.
 | R3 | 100 k | PG pull-up |
 | J1, J2 | Terminal block | Input and output |
 
-# Note: Claude was just used to lazily upload this project, no actual contributions from AI (trust me guys)
+Note: Claude was just used to lazily upload this project, no actual contributions from AI (trust me guys)
